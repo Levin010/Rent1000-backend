@@ -8,7 +8,7 @@ import {
 const router = express.Router();
 
 router.get("/:cognitoId", getTenant);
-router.put("/:cognitoId", updateTenant)
+router.put("/:cognitoId", updateTenant);
 router.post("/", createTenant);
 
 
